@@ -1,7 +1,7 @@
 name = "StratiGraphics"
 uuid = "135379e1-83be-5ae7-9e8e-29dade3dc6c7"
 author = "Júlio Hoffimann <julio.hoffimann@gmail.com>"
-version = "0.2.0"
+version = "0.2.1"
 
 [deps]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
@@ -23,8 +23,8 @@ VisualRegressionTests = "34922c18-7c2a-561c-bac1-01e79b2c4c92"
 test = ["Pkg", "VisualRegressionTests", "Test", "Plots", "ImageMagick", "QuartzImageIO", "Random"]
 
 [compat]
-Distributions = "^0.20"
+Distributions = "^0.21"
 GeoStatsBase = "^0.6"
 ImageFiltering = "^0.6"
-RecipesBase = "^0.6"
+RecipesBase = "^0.7"
 julia = "1"
